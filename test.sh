@@ -13,20 +13,4 @@ switch[2]="switch2"
 switch[3]="switch3"
 switch[4]="switch4"
 
-
-
-
-
-# switch=$1
-# manual=$2
-
-
-  echo ${manual[$1]}
-  echo ${switch[$2]}
-
-
-# switch_auto_check($1, $2)
-
-# switch_auto_check $1 $2
-
-# echo "This is a test. $1 $2"
+echo joycontrol-pluginloader -r ${switch[$2]} ${manual[$1]}
