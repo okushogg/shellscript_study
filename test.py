@@ -1,8 +1,8 @@
 import subprocess
 
-val1 = 1
-val2 = 2
-
+val1 = 3
+val2 = 4
+cmd = '/Users/okugawashota/Desktop/testShellscript/test.sh', '{}'.format(
+    val1), '{}'.format(val2)
 print("hello")
-subprocess.call(
-    ['/Users/okugawashota/Desktop/testShellscript/test.sh'])
+subprocess.call(cmd)

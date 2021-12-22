@@ -20,13 +20,13 @@ switch[4]="switch4"
 # switch=$1
 # manual=$2
 
-function switch_auto_check(){
+
   echo ${manual[$1]}
   echo ${switch[$2]}
-}
+
 
 # switch_auto_check($1, $2)
 
 # switch_auto_check $1 $2
 
-echo "This is a test."
+# echo "This is a test. $1 $2"
