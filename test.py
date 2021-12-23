@@ -1,4 +1,5 @@
 import subprocess
+import logging
 
 val1 = 3
 val2 = 4
