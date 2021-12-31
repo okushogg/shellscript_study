@@ -1,7 +1,7 @@
 import subprocess
 import logging
 
-val1 = 3
+val1 = 5
 val2 = 4
 cmd = '/Users/okugawashota/Desktop/testShellscript/test.sh',
 '{}'.format(val1),
