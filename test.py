@@ -2,8 +2,6 @@ import subprocess
 import logging
 import flask
 
-def __init__
-
 val1 = 5
 val2 = 4
 val3 = 8
