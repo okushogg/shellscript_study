@@ -4,7 +4,7 @@ sg.theme('DarkAmber')   # Add a touch of color
 # All the stuff inside your window.
 layout = [  [sg.Text('テスト用のウィンドウです')],
             [sg.Text('自由な数字を入れてください。'), sg.InputText()],
-            [sg.Button('Ok'), sg.Button('Cancel')] ]
+            [sg.Button('決定'), sg.Button('Cancel')] ]
 
 # Create the Window
 window = sg.Window('Window Title', layout)
