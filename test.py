@@ -10,3 +10,4 @@ cmd = '/Users/okugawashota/Desktop/testShellscript/test.sh',
 '{}'.format(val2)
 print("hello")
 subprocess.call(cmd)
+cd.rangbell
